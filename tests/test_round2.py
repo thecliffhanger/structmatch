@@ -211,7 +211,7 @@ class TestAdversarial:
         assert eq(1, 999, comparators=[AlwaysTrue()])
 
     def test_tolerance_edge_cases(self):
-        assert not eq(0, 0, tolerance=-1)  # negative tolerance behaves like 0
+        assert eq(0, 0, tolerance=-1)  # negative tolerance treated as 0 (exact match)
         assert eq(0, 0, tolerance=0)
         assert eq(0, 0, tolerance=100)
 

@@ -43,7 +43,7 @@ def _is_numeric(a, b) -> bool:
 def _within_tolerance(a, b, tolerance: float) -> bool:
     if not _is_numeric(a, b):
         return a == b
-    if tolerance == 0.0:
+    if tolerance <= 0.0:
         return a == b
     if tolerance > 1:
         return abs(a - b) <= tolerance
