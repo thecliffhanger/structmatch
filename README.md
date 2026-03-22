@@ -1,11 +1,15 @@
 # structmatch
 
+[![PyPI version](https://badge.fury.io/py/structmatch.svg)](https://pypi.org/project/structmatch)
+[![Python versions](https://img.shields.io/pypi/pyversions/structmatch.svg)](https://pypi.org/project/structmatch)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
 Deep structural matching, diffing, and pattern matching for Python. Zero dependencies.
 
 ## Install
 
 ```bash
-pip install -e .
+pip install structmatch
 ```
 
 ## Quick Start
@@ -92,3 +96,7 @@ eq({"created": now}, {"created": later}, comparators=[DateTimeWithin(5)])
 ## License
 
 MIT
+
+---
+
+Part of the [thecliffhanger](https://github.com/thecliffhanger) open source suite.
