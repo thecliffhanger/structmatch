@@ -1,0 +1,11 @@
+Metadata-Version: 2.4
+Name: structmatch
+Version: 0.1.0
+Summary: Deep structural matching, diffing, and pattern matching for Python
+Author: Teja
+License: MIT
+Requires-Python: >=3.10
+Provides-Extra: dev
+Requires-Dist: pytest>=7.0; extra == "dev"
+Requires-Dist: hypothesis; extra == "dev"
+Requires-Dist: pytest-cov; extra == "dev"

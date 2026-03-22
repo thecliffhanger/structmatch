@@ -1,0 +1,4 @@
+# file: /Volumes/Teja_T7_M4/clawd/structmatch/src/structmatch/options.py
+# hypothesis_version: 6.151.9
+
+[0.0, 'case_sensitive', 'comparators', 'ignore_keys', 'ignore_order', 'tolerance', 'type_coerce']

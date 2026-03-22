@@ -1,0 +1,4 @@
+# file: /Volumes/Teja_T7_M4/clawd/structmatch/src/structmatch/diff.py
+# hypothesis_version: 6.151.9
+
+['added', 'change', 'changed', 'from', 'path', 'path_changes', 'removed', 'root', 'root_set_added', 'root_set_removed', 'set_diff', 'sub_diff', 'to', 'type_change', 'type_changes', 'value']
