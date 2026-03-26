@@ -1,3 +1,4 @@
+README.md
 pyproject.toml
 src/structmatch/__init__.py
 src/structmatch/comparators.py
@@ -11,9 +12,11 @@ src/structmatch.egg-info/SOURCES.txt
 src/structmatch.egg-info/dependency_links.txt
 src/structmatch.egg-info/requires.txt
 src/structmatch.egg-info/top_level.txt
+tests/test_adversarial.py
 tests/test_comparators.py
 tests/test_core.py
 tests/test_diff.py
+tests/test_integration.py
 tests/test_options.py
 tests/test_round2.py
 tests/test_schema.py
